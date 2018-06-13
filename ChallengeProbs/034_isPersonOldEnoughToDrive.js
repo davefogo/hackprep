@@ -19,8 +19,8 @@ console.log(output); // --> true
 // Main function 
 
 var isPersonOldEnoughToDrive = function (obj) { 
-  var age = obj.age; 
-  if (age >= 16) { 
+   
+  if (obj.age >= 16) { 
     return true;  
   }
     return false; 
