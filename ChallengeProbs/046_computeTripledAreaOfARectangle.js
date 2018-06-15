@@ -9,7 +9,7 @@ var output = computeTripledAreaOfARectangle(2, 4);
 console.log(output); // --> 24
 
 */ 
-
+// Main function
 var computeTripledAreaOfARectangle = function (length, width) { 
   return 3*(length*width); 
 }
