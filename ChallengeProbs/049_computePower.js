@@ -7,6 +7,7 @@ var output = computePower(2, 3);
 console.log(output); // --> 8
 */ 
 
+// Main function 
 var computePower = function (num, exponent) { 
   var value = 1; 
   for (var i=0; i<exponent; i++) { 
@@ -25,4 +26,3 @@ var assertEqual = function (actual, expected, testName) {
 
 // Input test
 console.log(assertEqual(computePower(2,3), 8, '2 to the 3rd power is 8'));
- 
